@@ -31,13 +31,13 @@ Comming soon!
 | Chip Address    | A2    | A1    | A0    | I2C Address    |
 |-----|-----|-----|-----|-----|
 | 000    |     |     |     | 0x20    |
-| 001    |     |     | Connected    | 0x21    |
-| 010    |     | Connected    |     | 0x22    |
-| 011    |     | Connected    | Connected    | 0x23    |
-| 100    | Connected    |     |     | 0x24    |
-| 101    | Connected    |     | Connected    | 0x25    |
-| 110    | Connected    | Connected    |     | 0x26    |
-| 111    | Connected    | Connected    | Connected    | 0x27    |
+| 001    |     |     | Soldered    | 0x21    |
+| 010    |     | Soldered    |     | 0x22    |
+| 011    |     | Soldered    | Soldered    | 0x23    |
+| 100    | Soldered    |     |     | 0x24    |
+| 101    | Soldered    |     | Soldered    | 0x25    |
+| 110    | Soldered    | Soldered    |     | 0x26    |
+| 111    | Soldered    | Soldered    | Soldered    | 0x27    |
 
 
 ![Image](./static/PXL_20220205_114209594.jpg "Back of Relay Board 32x5A")
