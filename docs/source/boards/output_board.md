@@ -41,14 +41,14 @@ Comming soon!
 
 | Chip Address    | A2 (JP10)   | A1 (JP9)    | A0 (JP8)    | I2C Address    | Alternative I2C Address    |
 |-----|-----|-----|-----|-----|-----|
-| 000    |     |     |     | 0x48    | 0x18    |
-| 001    |     |     | Soldered    | 0x49    | 0x19    |
-| 010    |     | Soldered    |     | 0x4A    | 0x1A    |
-| 011    |     | Soldered    | Soldered    | 0x4B    | 0x1B    |
-| 100    | Soldered    |     |     | 0x4C    | 0x1C    |
-| 101    | Soldered    |     | Soldered    | 0x4D    | 0x1D    |
-| 110    | Soldered    | Soldered    |     | 0x4E    | 0x1E    |
-| 111    | Soldered    | Soldered    | Soldered    | 0x4F    | 0x1F    |
+| 000    |     |     |     | 0x18    | 0x48    |
+| 001    |     |     | Soldered    | 0x19    | 0x49    |
+| 010    |     | Soldered    |     | 0x1A    | 0x4A    |
+| 011    |     | Soldered    | Soldered    | 0x1B    | 0x4B    |
+| 100    | Soldered    |     |     | 0x1C    | 0x4C    |
+| 101    | Soldered    |     | Soldered    | 0x1D    | 0x4D    |
+| 110    | Soldered    | Soldered    |     | 0x1E    | 0x4E    |
+| 111    | Soldered    | Soldered    | Soldered    | 0x1F    | 0x4F    |
 
 ![](static/PXL_20220205_114223387.jpg)
 
