@@ -17,6 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
@@ -39,3 +41,4 @@ source_suffix = {
     '.md': 'markdown',
 }
 
+master_doc = 'index'
