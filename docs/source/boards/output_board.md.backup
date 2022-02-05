@@ -13,6 +13,8 @@ Here you will find complete BOM soon ;)
 
 Comming soon!
 
+
+
 ## Relay Board 32x5A
 
 Comming soon
@@ -26,14 +28,18 @@ Here you will find complete BOM soon ;)
 
 Comming soon!
 
+---
+
 ### Board I2C configuration
 
 
 ![Image](./static/PXL_20220205_114209594.jpg "Back of Relay Board 32x5A")
 
-Temperature sensor MCP9808
+---
 
-| Chip Address    | A2 (JP10)   | A1 (JP9)    | A0 (JP8)    | I2C Address    | ALT I2C Address    |
+#### Temperature sensor MCP9808
+
+| Chip Address    | A2 (JP10)   | A1 (JP9)    | A0 (JP8)    | I2C Address    | Alternative I2C Address    |
 |-----|-----|-----|-----|-----|-----|
 | 000    |     |     |     | 0x48    | 0x18    |
 | 001    |     |     | Soldered    | 0x49    | 0x19    |
@@ -46,7 +52,9 @@ Temperature sensor MCP9808
 
 ![](static/PXL_20220205_114223387.jpg)
 
-Relay Outputs MCP23017
+---
+
+#### Relay Outputs MCP23017
 
 | Chip Address    | A2   | A1    | A0    | I2C Address    |
 |-----|-----|-----|-----|-----|
@@ -59,7 +67,9 @@ Relay Outputs MCP23017
 | 110    | Soldered    | Soldered    |     | 0x26    |
 | 111    | Soldered    | Soldered    | Soldered    | 0x27    |
 
-Relays 9-16; 25-32
+---
+
+##### Relays 9-16; 25-32
 
 | MCP Address PIN    | Board PIN    |
 |-----|-----|
@@ -69,7 +79,9 @@ Relays 9-16; 25-32
 
 ![](static/PXL_20220205_114233820.jpg)
 
-Relays 1-8; 17-24
+---
+
+##### Relays 1-8; 17-24
 
 | MCP Address PIN    | Board PIN    |
 |-----|-----|
@@ -78,3 +90,9 @@ Relays 1-8; 17-24
 | A2    | JP3   |
 
 ![](static/PXL_20220205_114240305.jpg)
+
+---
+
+### Finding I2C devices
+
+i2detect - todo
