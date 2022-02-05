@@ -28,7 +28,7 @@ Comming soon!
 
 ### Board I2C configuration
 
-| Chip Address    | A2    | A1    | A0    | I2C Address    |
+| Chip Address    | A2   | A1    | A0    | I2C Address    |
 |-----|-----|-----|-----|-----|
 | 000    |     |     |     | 0x20    |
 | 001    |     |     | Soldered    | 0x21    |
@@ -52,15 +52,22 @@ Temperature sensor MCP9808
 
 ![](static/PXL_20220205_114223387.jpg)
 
-Outputs MCP23017
+Outputs MCP23017 (Relays 9-16; 25-32)
 
 | MCP Address PIN    | Board PIN    |
 |-----|-----|
-| A0    | JP6 & JP1   |
-| A1    | JP5 & JP2   |
-| A2    | JP4 & JP3   |
-
+| A0    | JP6   |
+| A1    | JP5   |
+| A2    | JP4   |
 
 ![](static/PXL_20220205_114233820.jpg)
+
+Outputs MCP23017 (Relays 1-8; 17-24)
+
+| MCP Address PIN    | Board PIN    |
+|-----|-----|
+| A0    | JP1   |
+| A1    | JP2   |
+| A2    | JP3   |
 
 ![](static/PXL_20220205_114240305.jpg)
