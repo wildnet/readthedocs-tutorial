@@ -21,4 +21,5 @@ Contents
 
    usage
    api
+   output_board
    boards/output_board
